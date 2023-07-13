@@ -16,10 +16,14 @@ int main(){
             Room k;
             std::cin>>k;
             std::cout<<k;
+            break;
         }
         case 2:
             std::cerr<<"Chose to exit the program and quitting it \n";
-            std::abort();
+            std::exit(0);
+            break;
+        default:
+            std::cerr<<"WRONG CHOICE\n";
     }
 
     return 0;
